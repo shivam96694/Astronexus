@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# astronixus
+Astronixus is a modern astrology website that provides personalized horoscopes, birth chart analysis, and astrological predictions using Vedic and Lal Kitab astrology. Users can view daily, weekly, and monthly insights with a simple and interactive interface.
+>>>>>>> 8c42153d3aaf04c93c22285ec049bd72781df11f
