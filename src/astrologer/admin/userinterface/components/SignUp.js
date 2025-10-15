@@ -4,7 +4,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useState } from "react";
 import google from "../../../../assets/google.png";
 import SweetAlert2 from "react-sweetalert2";
-
+import myImage from '../../../../assets/generated-image (1).png'
 export default function SignUp() {
   const [checked, setChecked] = useState(false);
   const [mobileno, setMobileno] = useState("");
@@ -91,15 +91,21 @@ setSignUpOpen(false);
       <Dialog
         open={signUpOpen}
         maxWidth="sm"
-        PaperProps={{ sx: { borderRadius: "10px", width: "500px", maxWidth: "90vw" } }}
+        PaperProps={{ sx: { borderRadius: "10px", width: "700px", maxWidth: "90vw" } }}
       >
         <DialogContent style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+        
+          <div style={{display:'flex'}}>
+
+      <img src={myImage} alt="Astrology" width="320" style={{paddingRight:10,objectFit:'cover'}} />
+         
+        
           <div style={{ display: "flex", flexDirection: "column", borderRadius: 10, height: "auto" }}>
             <div style={{ display: "flex", alignItems: "center" }}>
               <div
                 style={{
                   fontSize: "2rem",
-                  lineHeight: "4rem",
+                 
                   
                   fontWeight: 520,
                   color: "rgb(79, 79, 79)",
@@ -165,14 +171,16 @@ setSignUpOpen(false);
               <Button
                 variant="contained"
                 fullWidth
-                sx={{ backgroundColor: "#F39C12", color: "#fff", height: 45 }}
+                sx={{ backgroundColor: "#F39C12", color: "#fff", height: 45,mt:3 }}
                 onClick={handleSubmit}
+                
               >
                 Create account
               </Button>
             </div>
           </div>
          
+         </div>
         </DialogContent>
       </Dialog>
 <div >

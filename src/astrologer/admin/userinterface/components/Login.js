@@ -3,6 +3,7 @@ import Checkbox from "@mui/material/Checkbox";
 import CloseIcon from "@mui/icons-material/Close";
 import { useState } from "react";
 import google from '../../../../assets/google.png';
+import myImage from '../../../../assets/generated-image (1).png'
 import gmail from '../../../../assets/gmail.png';
 import SweetAlert2 from "react-sweetalert2";
 
@@ -82,20 +83,24 @@ setLoginOpen(false);
       <Dialog
         open={loginOpen}
         maxWidth="sm"
-        PaperProps={{ sx: { borderRadius: "10px", width: "500px", maxWidth: "90vw" } }}
+        PaperProps={{ sx: { borderRadius: "10px", width: "700px", maxWidth: "110vw" } }}
       >
         <DialogContent style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-          <div style={{ display: "flex", flexDirection: "column", borderRadius: 10, height: "auto" }}>
+        <div style={{display:'flex'}}>
+
+      <img src={myImage} alt="Astrology" width="320" style={{paddingRight:10,objectFit:'cover'}} />
+          
+          <div style={{ display: "flex", flexDirection: "column", borderRadius: 10, height: "auto",paddingLeft:10 }}>
             <div style={{ display: "flex", alignItems: "center" }}>
               <div
                 style={{
                   fontSize: "2rem",
-                  lineHeight: "4rem",
+                  
                   
                   fontWeight: 520,
                   color: "rgb(79, 79, 79)",
                   fontFamily: "Okra, Helvetica, sans-serif",
-                  marginBottom:10
+                  marginBottom:15
                 }}
               >
                Login
@@ -137,7 +142,7 @@ setLoginOpen(false);
               <Button
                 variant="contained"
                 fullWidth
-                sx={{ backgroundColor: "#F39C12", color: "#fff", height: 45 }}
+                sx={{ backgroundColor: "#F39C12", color: "#fff", height: 45,mt:2 }}
                 onClick={handleSubmit}
               >
                 Get Otp
@@ -169,6 +174,7 @@ setLoginOpen(false);
                     </div>
           </div>
          
+         </div>
         </DialogContent>
       </Dialog>
 <div >
