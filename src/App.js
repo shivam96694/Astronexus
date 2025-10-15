@@ -4,7 +4,8 @@ import SignUp from "./astrologer/admin/userinterface/components/SignUp";
 import Login from "./astrologer/admin/userinterface/components/Login";
 import UserInformation from './astrologer/admin/userinterface/components/UserInformation';
 import AstroLogerSignUp from './astrologer/admin/userinterface/components/AstrologerSignUp';
-import AstroVerification from './astrologer/admin/userinterface/components/AstroVerification'
+import AstroVerification from './astrologer/admin/userinterface/components/AstroVerification';
+import HomePage from "./astrologer/admin/userinterface/components/screens/HomePage";
 function App() {
   return (
     <div style={{ fontFamily: "Open Sans" }}>
@@ -15,7 +16,7 @@ function App() {
           <Route  element={<UserInformation />} path="/userinformation" />
           <Route  element={<AstroLogerSignUp />} path="/astrologersignup" />
           <Route  element={<AstroVerification />} path="/astroverification" />
-
+<Route element={<HomePage />} path="/" />
         </Routes>
       </Router>
     </div>

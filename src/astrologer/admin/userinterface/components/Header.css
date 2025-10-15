@@ -1,0 +1,18 @@
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: 'none';
+  color: #4c4c4c;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  line-height: 1.7;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #ffd700;
+  background-color:#ffd700;
+ 
+}

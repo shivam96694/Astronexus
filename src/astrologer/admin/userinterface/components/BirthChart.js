@@ -53,10 +53,10 @@ maritalStatus: "",
 
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
-   <div style={{width:'100%',height:'auto',justifyContent:'center',alignItems:'center',display:'flex'}}>
+   <div style={{width:'80%',height:'auto',justifyContent:'center',alignItems:'center',display:'flex'}}>
       <div style={{width:'50%',height:'auto',display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}  >
         <Typography variant="h5" fontWeight="bold" gutterBottom align="center" marginBottom={3} marginTop={2}>
-          🪐 Astrologer User Information
+          Kundli / Birth Chart
         </Typography>
 
         

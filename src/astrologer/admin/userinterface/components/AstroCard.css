@@ -1,0 +1,52 @@
+.astro-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 40px;
+  margin-top: 1%;
+  
+ width:'80%'
+  /* min-height: 100vh;  */
+}
+
+.astro-card {
+  width: 280px;
+  height: 160px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.astro-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.astro-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.astro-emoji {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.astro-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  text-align: center;
+}
