@@ -6,6 +6,7 @@ import UserInformation from './astrologer/admin/userinterface/components/UserInf
 import AstroLogerSignUp from './astrologer/admin/userinterface/components/AstrologerSignUp';
 import AstroVerification from './astrologer/admin/userinterface/components/AstroVerification';
 import HomePage from "./astrologer/admin/userinterface/components/screens/HomePage";
+import TalkToAstrologer from "./astrologer/admin/userinterface/components/screens/TalkToAstrologer";
 function App() {
   return (
     <div style={{ fontFamily: "Open Sans" }}>
@@ -17,6 +18,8 @@ function App() {
           <Route  element={<AstroLogerSignUp />} path="/astrologersignup" />
           <Route  element={<AstroVerification />} path="/astroverification" />
 <Route element={<HomePage />} path="/" />
+<Route element={<TalkToAstrologer />} path="/talktoastrologer" />
+
         </Routes>
       </Router>
     </div>

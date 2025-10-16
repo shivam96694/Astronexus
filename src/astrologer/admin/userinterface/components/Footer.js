@@ -13,7 +13,7 @@ export default function Footer() {
       sx={{
         backgroundColor: "#2d2d2d",
         color: "white",
-        width: "100%",
+        width: "89.4%",
         padding: { xs: "2rem 1rem", md: "3rem 5rem" },
       }}
     >
